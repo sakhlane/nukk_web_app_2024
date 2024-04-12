@@ -815,6 +815,15 @@ display: none;
  @media screen and (max-width: 460px){
  .contact-detail{
     display: none;
+      html,body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+   }
+
+   .main-section{
+    padding: 0px;
+   }
  }
  }
  @media screen and (max-width: 750px){
