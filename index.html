@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nukk web app</title>
+    <link rel="stylesheet" href="./Assests/css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+
+    <main class="main-section">
+      <!-- LANDING PAGE SECTION -->
+      <section id="landing-page">
+        <section class="landing-page-banner">
+          <!-- hamberger for responsive -->
+          <nav  class="nav-bar">
+           
+            <div class="logo" >
+              <figure>
+                <img
+                  class="nukk-logo-img"
+                  src="./Assests/images/nukk-logo-white.png"
+                  alt="nukk-logo-img"
+                />
+              </figure>
+            </div>
+            <div class="menu">
+              <ul>
+                <li class="active"><a href="#landing-page">home</a></li>
+                <li><a href="#our-specialization">projects</a></li>
+                <li><a href="#about-section">about</a></li>
+                <li><a href="#project-section">services</a></li>
+                <li><a href="#latest-news">blogs</a></li>
+                <li><a href="#">pages</a></li>
+              </ul>
+              <div class="free-quote-btn menu-btn">get free quote</div>
+            </div>
+            <div class="hamberger-icon" onclick="menufunc()"><i class="fa-solid fa-bars"></i></div>
+          </nav>
+          <!-- DROPDOWN FOR RESPONSIVE DESIGN -->
+        <div class="dropdown-menu">
+          <div class="d-menu">
+            <ul>
+              <li class="active"><a href="#landing-page">home</a></li>
+              <li><a href="#our-specialization">projects</a></li>
+              <li><a href="#about-section">about</a></li>
+              <li><a href="#project-section">services</a></li>
+              <li><a href="#latest-news">blogs</a></li>
+              <li><a href="#">pages</a></li>
+            </ul>
+            <div class="free-quote-btn menu-btn">get free quote</div>
+          </div>
+         
+        </div>
+        <!-- CONTENT  -->
+          <section class="heading-text">
+            <h1>YOU DREAM. WE CREATE.</h1>
+            <h3>
+              We turn your ideas to reality, we don't stop until you're
+              satisfied.
+            </h3>
+          </section>
+          <section class="social-icon">
+            <ul>
+              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+              <div class="divider"></div>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              <div class="divider"></div>
+              <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+              <div class="divider"></div>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </ul>
+          </section>
+          <section class="free-quote-btn small">get free quote</section>
+          <section class="contact-detail">
+            <article class="contact-detail-arti">
+              <i class="fa-solid fa-phone"></i>
+              <h4 class="contact-detail-arti-heading">phone number</h4>
+              <p class="contact-detail-margin">1-800-506-266</p>
+              <p class="contact-detail-margin">1-100-777-800</p>
+            </article>
+            <article class="contact-detail-art">
+              <i class="fa-regular fa-envelope"></i>
+              <h4 class="contact-detail-arti-heading">contact</h4>
+              <p>contact@nuuk.com</p>
+              <p>info@nuuk.com</p>
+            </article>
+            <article class="contact-detail-art">
+              <i class="fa-regular fa-clock"></i>
+              <h4 class="contact-detail-arti-heading">opening times</h4>
+              <p>Mon - Sat 8:00 - 17:30, Sunday - Closed</p>
+              <h4 class="contact-detail-arti-heading">FIND ON MAP</h4>
+            </article>
+          </section>
+        </section>
+      </section>
+      <!-- OUR SPECIALIZATION SECTION-->
+      <section id="our-specialization">
+        <section class="our-specialization-heading">
+          <div class="main-heading">
+            <h1 class="back-heading">SERVICES</h1>
+            <h2 class="top-heading">OUR SPECIALIZATION</h2>
+          </div>
+          <h5 class="hover-link">VIEW ALL SERVICES</h5>
+        </section>
+        <section class="our-specialization-sub-content">
+          <article>
+            <figure>
+              <img
+                src="./Assests/images/service-img1.svg"
+                width="100px"
+                height="100px"
+                alt=""
+              />
+            </figure>
+            <h3 class="services-sub-heading">RENOVATION</h3>
+            <p class="sercices-content">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse varius enim in eros elementum tristique.
+            </p>
+            <h5 class="hover-link">LEARN MORE</h5>
+          </article>
+
+          <article>
+            <figure>
+              <img
+                src="./Assests/images/service-img2.svg"
+                width="100px"
+                height="100px"
+                alt=""
+              />
+            </figure>
+            <h3 class="services-sub-heading">ARCHITECTURE</h3>
+            <p class="sercices-content">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse varius enim in eros elementum tristique.
+            </p>
+            <h5 class="hover-link">LEARN MORE</h5>
+          </article>
+          <article>
+            <figure>
+              <img
+                src="./Assests/images/service-img3.svg"
+                width="100px"
+                height="100px"
+                alt=""
+              />
+            </figure>
+            <h3 class="services-sub-heading">CONSTRUCTION</h3>
+            <p class="sercices-content">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse varius enim in eros elementum tristique.
+            </p>
+            <h5 class="hover-link">LEARN MORE</h5>
+          </article>
+          <article>
+            <figure>
+              <img
+                src="./Assests/images/service-img4.svg"
+                width="100px"
+                height="100px"
+                alt=""
+              />
+            </figure>
+            <h3 class="services-sub-heading">FINANCIAL RESULTS</h3>
+            <p class="sercices-content">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse varius enim in eros elementum tristique.
+            </p>
+            <h5 class="hover-link">LEARN MORE</h5>
+          </article>
+        </section>
+      </section>
+      <!-- ABOUT OR WHO WE ARE SECTION  -->
+      <section id="about-section">
+        <section class="who-we-are-section">
+          <figure class="who-we-are-img">
+            <img src="./Assests/images/who-we-are-img-1.jpg" alt="" />
+          </figure>
+          <div class="who-we-are-content">
+            <article class="about-heading">
+              <h1 class="back-heading">ABOUT</h1>
+              <h1 class="top-heading">WHO WE ARE</h1>
+            </article>
+            <article class="about-content">
+              <p class="ablut-contnet-para">
+                Based on collective work and shared knowledge, Nuuk aims to
+                favor dialogue and debate, to transform individual knowledge
+                into increased creative potential.
+              </p>
+              <p class="ablut-contnet-para">
+                Our studio is a architecture practice based in NY and Paris.
+                Today, it includes 150 architects, urban planners, landscape and
+                interior designers of 25 different nationalities. The company
+                principle of Architecture-Studio is the collective conception.
+                From the very beginning, the practice has believed in the
+                virtues of exchange, crossing ideas, common effort, shred
+                knowledge.
+              </p>
+              <h5 class="hover-link">MEET THE TEAM</h5>
+            </article>
+          </div>
+        </section>
+        <section class="who-we-are-sub-content">
+            <article>
+                <h1 class="who-we-are-sub-content-number">170</h1>
+                <p class="who-we-are-sub-content-para">Employer with over 10</p>
+                <p class="who-we-are-sub-content-para">years of experience</p>
+            </article>
+            <article>
+                <h1 class="who-we-are-sub-content-number">10</h1>
+                <p class="who-we-are-sub-content-para">Years experience in</p>
+                <p class="who-we-are-sub-content-para">construction industries</p>
+            </article>
+            <article>
+                <h1 class="who-we-are-sub-content-number">690</h1>
+                <p class="who-we-are-sub-content-para">Residential premises</p>
+                <p class="who-we-are-sub-content-para">completed in 2019</p>
+            </article>
+            <article>
+                <h1 class="who-we-are-sub-content-number">7.1</h1>
+                <p class="who-we-are-sub-content-para">Milion dollar value on</p>
+                <p class="who-we-are-sub-content-para">investments</p>
+            </article>
+        </section>
+      </section>
+      <!-- PROJECTS OR OUR WORK SECTION -->
+      <section id="projects-section">
+        <section class="our-specialization-heading">
+            <div class="main-heading">
+              <h1 class="back-heading projects-also">PROJECTS</h1>
+              <h2 class="top-heading">OUR WORK</h2>
+            </div>
+            <h5 class="hover-link">VIEW ALL WORKS</h5>
+          </section>
+          <section class="work-section">
+            <article class="our-work">
+                <div class="work-img img-1">                    
+                </div>
+                <div class="work-overlay">
+                    <div class="view-project">view <br>project</div>
+                </div>
+            </article>
+            <article class="our-work">
+                <div class="work-img img-2">                    
+                </div>
+                <div class="work-overlay">
+                    <div class="view-project">view <br>project</div>
+                </div>
+            </article>
+            <article class="our-work">
+                <div class="work-img img-3">                    
+                </div>
+                <div class="work-overlay">
+                    <div class="view-project">view <br>project</div>
+                </div>
+            </article>
+            <article class="our-work">
+                <div class="work-img img-4">                    
+                </div>
+                <div class="work-overlay">
+                    <div class="view-project">view <br>project</div>
+                </div>
+            </article>
+            <article class="our-work">
+                <div class="work-img img-5">                    
+                </div>
+                <div class="work-overlay">
+                    <div class="view-project">view <br>project</div>
+                </div>
+            </article>
+            <article class="our-work">
+                <div class="work-img img-6">                    
+                </div>
+                <div class="work-overlay">
+                    <div class="view-project">view <br>project</div>
+                </div>
+            </article>
+          </section>
+          <section class="scroll-img-bg">
+            <article class="scroll-img">
+                <h1 class="scroll-h1">
+                    LET'S MAKE SOMETHING GREAT TOGETHER</h1>
+                <h3 class="scroll-h3"> Get in touch with us and send some basic info for a quick quote.</h3>
+                <h5 class="hover-link scroll-img">GET FREE QUOTE</h5>
+            </article>
+          </section>
+          <!-- TEAM SECTION -->
+          <section class="our-specialization-heading">
+            <div class="main-heading">
+              <h1 class="back-heading projects-also">TEAM</h1>
+              <h2 class="top-heading">PROFESSIONALS</h2>
+            </div>
+            <h5 class="hover-link">ABOUT US</h5>
+          </section>
+          <section class="team-section">
+            <article class="team">
+              <div class="team-img img-1">
+                <!-- IMAGE COVER THROUGH FORM CSS -->
+              </div>
+              <div class="team-name">
+                <h1 class="team-member-name">PHILIP BROWER</h1>
+                <p class="team-member-profession">Managing Director</p>
+              </div>
+              <div class="team-contact">
+               <ul>
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <div class="divider"></div>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <div class="divider"></div>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                
+                </ul>
+              </div>
+            </article>
+            <article class="team">
+              <div class="team-img img-2">
+                <!-- IMAGE COVER THROUGH FORM CSS -->
+              </div>
+              <div class="team-name">
+                <h1 class="team-member-name">JOHN WICK</h1>
+                <p class="team-member-profession">Managing Director</p>
+              </div>
+              <div class="team-contact">
+               <ul>
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <div class="divider"></div>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <div class="divider"></div>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                
+                </ul>
+              </div>
+            </article>
+            <article class="team">
+              <div class="team-img img-3">
+                <!-- IMAGE COVER THROUGH FORM CSS -->
+              </div>
+              <div class="team-name">
+                <h1 class="team-member-name">JIMMY MCGILL
+                </h1>
+                <p class="team-member-profession">Managing Director</p>
+              </div>
+              <div class="team-contact">
+               <ul>
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <div class="divider"></div>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <div class="divider"></div>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                
+                </ul>
+              </div>
+            </article>
+            <article class="team">
+              <div class="team-img img-4">
+                <!-- IMAGE COVER THROUGH FORM CSS -->
+              </div>
+              <div class="team-name">
+                <h1 class="team-member-name">SARA CONNOR</h1>
+                <p class="team-member-profession">Managing Director</p>
+              </div>
+              <div class="team-contact">
+               <ul>
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <div class="divider"></div>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <div class="divider"></div>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                
+                </ul>
+              </div>
+            </article>
+          </section>
+          <!-- TSTIMONIAL SECTION -->
+        <section class="testimonials-section">
+           <div class="testim-left-section">
+            <section class="our-specialization-heading testim-left">
+              <div class="main-heading">
+                <h1 class="back-heading projects-also">CLIENTS</h1>
+                <h2 class="top-heading">TESTIMONIALS</h2>
+              </div>
+            </section>
+            <section class="testim-left-content">
+              <p class="testim-left-para">Aenean ut eros et nisl sagittis vestibulum. Fusce neque. Praesent blandit laoreet nibh. Morbi mollis tellus ac sapien.</p>
+              <h5 class="hover-link">OUR SERVICES</h5>
+            </section>
+           </div>
+         <div class="testim-right-section">
+              <div class="testim-right-box box-1">
+                <div class="testim-circle">"</div>
+                <div class="testim-right-name">
+                  <h4 class="testim-right-pro-name">SARA WILLIAM</h4>
+                  <p class="testim-right-pro-work">CEO at Webflow</p>
+                </div>
+                <div class="testim-right-content">
+                  <p class="testim-right-content-para">"Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet"</p>
+                </div>
+              </div>
+              
+           
+           
+              <div class="testim-right-box box-2">
+                <div class="testim-circle">"</div>
+                <div class="testim-right-name">
+                  <h4 class="testim-right-pro-name">RAVEN DURGAN</h4>
+                  <p class="testim-right-pro-work">Architect at Group</p>
+                </div>
+                <div class="testim-right-content">
+                  <p class="testim-right-content-para">"Aliquam eu nunc. Cras dapibus. Vestibulum turpis sem, aliquet eget, lobortis pellentesque, rutrum eu, nisl"</p>
+                </div>
+              </div>
+              
+          
+            
+              <div class="testim-right-box box-3">
+                <div class="testim-circle">"</div>
+                <div class="testim-right-name">
+                  <h4 class="testim-right-pro-name">JOHN JUNIOR</h4>
+                  <p class="testim-right-pro-work">Menager at Complexx</p>
+                </div>
+                <div class="testim-right-content">
+                  <p class="testim-right-content-para">"Donec orci lectus, aliquam ut, faucibus non, euismod id, nulla. Cras varius. Etiam sit amet orci eget eros faucibus tincidunt. Fusce a quam"</p>
+                </div>
+              </div>
+              
+         
+           
+              <div class="testim-right-box box-4 ">
+                <div class="testim-circle">"</div>
+                <div class="testim-right-name">
+                  <h4 class="testim-right-pro-name">SAMI TYPO</h4>
+                  <p class="testim-right-pro-work">SEO at Balfin</p>
+                </div>
+                <div class="testim-right-content">
+                  <p class="testim-right-content-para">"Vestibulum fringilla pede sit amet augue. Morbi ac felis. Ut a nisl id ante tempus hendrerit"</p>
+                </div>
+              </div>
+            </div>  
+            <div class="margin-section"></div>
+        </section> 
+      </section>
+      <!-- LATEST NEWS SECTION -->
+      <section id="latest-news">
+        <section class="our-specialization-heading">
+          <div class="main-heading">
+            <h1 class="back-heading projects-also">BLOG</h1>
+            <h2 class="top-heading">LASTET NEWS</h2>
+          </div>
+          <h5 class="hover-link">VIEW BLOG</h5>
+        </section>
+        <sectin class="blog-content">
+          <article class="blog-content-arti">
+            <a href="#">
+
+              <div class="blog-img">
+                <img src="./Assests/images/port-1.jpg" alt="">
+              </div>
+              <div class="blog-meta">
+                <div class="blog-meta-date">17</div>
+                <div class="blog-meta-month">OCT</div>
+              </div>
+              <div class="blog-detail">
+                <h1 class="blog-post-heading">BLOG POST 1</h1>
+                <p class="blog-post-para">Service and providing potential clients and customers with testimonials is one of the best way to market.</p>
+                <h5 class="hover-link blog-link">READ MORE</h5>
+
+              </div>
+            </a>
+            </article>
+          <article class="blog-content-arti">
+            <a href="#">
+
+              <div class="blog-img">
+                <img src="./Assests/images/port-2.jpg" alt="">
+              </div>
+              <div class="blog-meta">
+                <div class="blog-meta-date">11</div>
+                <div class="blog-meta-month">DEC</div>
+              </div>
+              <div class="blog-detail">
+                <h1 class="blog-post-heading">BLOG POST 2</h1>
+                <p class="blog-post-para">Service and providing potential clients and customers with testimonials is one of the best way to market.</p>
+                <h5 class="hover-link blog-link">READ MORE</h5>
+
+              </div>
+            </a>
+            </article>
+          <article class="blog-content-arti">
+            <a href="#">
+
+              <div class="blog-img">
+                <img src="./Assests/images/port-3.jpg" alt="">
+              </div>
+              <div class="blog-meta">
+                <div class="blog-meta-date">27</div>
+                <div class="blog-meta-month">OCT</div>
+              </div>
+              <div class="blog-detail">
+                <h1 class="blog-post-heading">BLOG POST 3</h1>
+                <p class="blog-post-para">Service and providing potential clients and customers with testimonials is one of the best way to market.</p>
+                <h5 class="hover-link blog-link">READ MORE</h5>
+
+              </div>
+            </a>
+            </article>
+        </sectin>
+        <section class="trusted-companies">
+          <div class=" caption trusted-com-logo">TRUSTED BY TOP COMPANIES</div>
+          <div class="logo-container">
+          <div class="trusted-com-logo">logo 1</div>
+          <div class="trusted-com-logo">logo 2</div>
+          <div class="trusted-com-logo">logo 3</div>
+          <div class="trusted-com-logo">logo 4</div>
+          <div class="trusted-com-logo">logo 5</div>
+        </div>
+        </section>
+        <div class="footer-div">
+        <section class="footer-section">
+          
+          <article class="footer-section-content">
+            <div class="footer-arti-heading">ABOUT NUUK</div>
+            <p class="footer-about-nukk-para">Based on collective work and shared knowledge, Nuuk aims to favor dialogue and debate, to transform individual knowledge into increased creative potential.</p>
+            <h5 class="hover-link">FIND ON MAP</h5>
+          </article>
+          <article class="footer-section-content">
+            <div class="footer-arti-heading">SERVICES</div>
+            <div class="services">
+            <h5 class="hover-link"><a href="#" class="foot-services-link"> FINANCIAL RESULTS </a></h5>
+            <h5 class="hover-link"><a href="#" class="foot-services-link"> CONSTRUCTION </a></h5>
+            <h5 class="hover-link"><a href="#" class="foot-services-link"> ARCHITECTURE </a></h5>
+            <h5 class="hover-link"><a href="#" class="foot-services-link"> RENOVATION </a></h5>
+            </div>
+          </article>
+          <article class="footer-section-content">
+            <div class="footer-arti-heading">CONTACT US</div>
+            <div class="div-foo-arti-cont">
+              <div class="foot-contact-icon"><i class="fa-solid fa-phone"></i></div>
+              <div class="foot-contact-detail">
+                <h1 class="foot-contact-heading">PHONE NUMBER</h1>
+                <p class="foot-contact-para">1-800-506-266</p>
+              </div>
+            </div>
+            <div class="div-foo-arti-cont">
+              <div class="foot-contact-icon"><i class="fa-regular fa-clock"></i></div>
+              <div class="foot-contact-detail">
+                <h1 class="foot-contact-heading">OPENING TIMES</h1>
+                <p class="foot-contact-para">Mon - Sat 8:00 - 17:30, Sunday - Closed</p>
+              </div>
+            </div>
+            <div class="div-foo-arti-cont">
+              <div class="foot-contact-icon"><i class="fa-solid fa-envelope"></i></div>
+              <div class="foot-contact-detail">
+                <h1 class="foot-contact-heading">CONTACT</h1>
+                <p class="foot-contact-para">contact@nuuk.com</p>
+              </div>
+            </div>
+          </article>
+         </section>
+         <div class="logo footer-logo">
+          <figure>
+            <img
+              class="nukk-logo-img"
+              src="./Assests/images/nukk-logo-white.png"
+              alt="nukk-logo-img"
+            />
+          </figure>
+        </div>
+       </div>
+      </section>
+      
+    </main>
+     <script>
+      function menufunc(){
+        var elms = document.getElementsByClassName("d-menu");
+        console.log(elms);
+        
+  Array.from(elms).forEach((x) => {
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  })
+      }
+    
+      
+  </script>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+<!-- instruction for web project 
+
+    You have to design an exact replica of the Nuuk Webapp. We have attached the reference website URL below.
+
+
+
+Pleas note:
+
+The menu item vertical line hover effect is optional. You will NOT lose marks if you do not implement it.
+You do NOT have to implement "Get Free Quote" button click.
+The webapp needs to be mobile responsive for only mobile screens below 400px.
+To get other images, please inpect and get the image URLs.
+
+
+Reference Website:
+
+https://nuuk-e3eaa.firebaseapp.com/
+
+
+
+Landing Page Background Image:
+
+https://nuuk-e3eaa.firebaseapp.com/assets/img/slide-2.jpg
+
+
+
+
+-->
